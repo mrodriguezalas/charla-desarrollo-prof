@@ -14,4 +14,8 @@ Este ejemplo hará uso de Jekyll Themes para la implementación de una página w
 
 ## Primeros pasos (Windows)
 - Una vez instalado todo lo anterior abra una nueva ventana de CMD y ejecute el comando `gem install jekyll bundler`
-- Verifique la instalaci'on 
+- Verifique la instalación corriendo `jekyll -v`
+- Elegir una nueva carpeta donde van a estar los archivos de su página web. Vamos a crear una nueva página con el comando `jekyll new mipagina` donde 'mipagina' es el nombre que se le dará a la nueva carpeta con los archivos de la página.
+- Cambiar a la carpeta recién creada con `cd mipagina`.
+- Ejecute `bundle exec jekyll serve`
+- Abra su navegador en la dirección `http://localhost:4000`.
